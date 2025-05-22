@@ -1,10 +1,10 @@
-const birthday = new Date('2026-01-18T00:00:00');
+const birthday = new Date('2025-07-15T00:00:00');
 
 const countdown = () => {
   const now = new Date();
   const diff = birthday - now;
 
-  const message = document.getElementById('birthdayMessage');
+  const message = document.getElementById('birthdayMessage') ;
 
   if (diff <= 0) {
     document.querySelector('.countdown').style.display = 'none';
